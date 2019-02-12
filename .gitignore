@@ -1,0 +1,186 @@
+
+# Créé par https://www.gitignore.io/api/flutter,androidstudio
+# Modifier sur https://www.gitignore.io/?templates=flutter,androidstudio
+
+### AndroidStudio ###
+# Couvre les fichiers à ignorer pour le développement sous Android avec Android Studio.
+
+# Fichiers d'application construits
+* .apk
+* .ap_
+
+# Fichiers pour la machine virtuelle ART / Dalvik
+* .dex
+
+# Fichiers de classe Java
+*.classe
+
+# Fichiers générés
+poubelle/
+gen /
+en dehors/
+
+Nombre de fichiers
+.gradle
+.gradle /
+construire/
+
+# Signature de fichiers
+.signing /
+
+# Fichier de configuration local (chemin du sdk, etc.)
+local.properties
+
+# Dossier Proguard généré par Eclipse
+proguard /
+
+Nombre de fichiers journaux
+*.bûche
+
+# Android Studio
+/*/construire/
+/*/local.properties
+/*/en dehors
+/*/*/construire
+/*/*/production
+capture /
+.la navigation/
+* .ipr
+* ~
+* .swp
+
+# Patch Android
+gen-external-apklibs
+
+# Dossier de construction natif externe généré dans Android Studio 2.2 et versions ultérieures
+.externalNativeBuild
+
+# NDK
+obj /
+
+# IntelliJ IDEA
+* .iml
+* .iws
+/en dehors/
+
+# Configurations spécifiques à l'utilisateur
+.idea / caches /
+.idea / bibliothèques /
+.idea / shelf /
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / .name
+.idea / compiler.xml
+.idea / copyright / profiles_settings.xml
+.idea / encodings.xml
+.idea / misc.xml
+.idea / modules.xml
+.idea / scopes / scope_settings.xml
+.idea / dictionnaires
+.idea / vcs.xml
+.idea / jsLibraryMappings.xml
+.idea / datasources.xml
+.idea / dataSources.ids
+.idea / sqlDataSources.xml
+.idea / dynamic.xml
+.idea / uiDesigner.xml
+.idea / assetWizardSettings.xml
+
+# Fichiers spécifiques au système d'exploitation
+.DS_Store
+.DS_Store?
+._ *
+.Spotlight-V100
+.Les trashs
+ehthumbs.db
+Thumbs.db
+
+# Fichiers de projet Legacy Eclipse
+.classpath
+.projet
+.projet
+.réglages/
+
+# Outils mobiles pour Java (J2ME)
+.mtj.tmp /
+
+# Fichiers de paquets #
+*.guerre
+*.oreille
+
+# journaux des incidents de la machine virtuelle (référence: http://www.java.com/en/download/help/error_hotspot.xml)
+hs_err_pid *
+
+## Fichiers spécifiques au plugin:
+
+# mpeltonen / sbt-idea plugin
+.idea_modules /
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plugin Mongo Explorer
+.idea / mongoSettings.xml
+
+# Plugin Crashlytics (pour Android Studio et IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Patch AndroidStudio ###
+
+! /gradle/wrapper/gradle-wrapper.jar
+
+### Battement ###
+Relatif # Flutter / Dart / Pub
+** / doc / api /
+.dart_tool /
+.flutter-plugins
+.paquets
+.pub-cache /
+.pub/
+
+# Android liés
+** / android / ** / gradle-wrapper.jar
+** / android / .gradle
+** / android / captures /
+** / Android / Gradlew
+** / android / gradlew.bat
+** / android / local.properties
+** / android / ** / GeneratedPluginRegistrant.java
+
+# iOS / XCode liés
+** / ios / ** / *. mode1v3
+** / ios / ** / *. mode2v3
+** / ios / ** / *. déplacé de côté
+** / ios / ** / *. pbxuser
+** / ios / ** / *. perspectivev3
+** / ios / ** / * sync /
+** / ios / ** /. sconsign.dblite
+** / ios / ** /. tags *
+** / ios / ** /. vagabond /
+** / ios / ** / DerivedData /
+** / ios / ** / Icon?
+** / ios / ** / Pods /
+** / ios / ** /. liens symboliques /
+** / ios / ** / profil
+** / ios / ** / xcuserdata
+** / ios / .generated /
+** / ios / Flutter / App.framework
+** / ios / Flutter / Flutter.framework
+** / ios / Flutter / Generated.xcconfig
+** / ios / Flutter / app.flx
+** / ios / Flutter / app.zip
+** / ios / Flutter / flutter_assets /
+** / ios / ServiceDefinitions.json
+** / ios / Runner / GeneratedPluginRegistrant. *
+
+# Exceptions aux règles ci-dessus.
+! ** / ios / ** / default.mode1v3
+! ** / ios / ** / default.mode2v3
+! ** / ios / ** / default.pbxuser
+! ** / ios / ** / default.perspectivev3
+! / packages / flutter_tools / test / data / dart_dependencies_test / ** /. packages
+
+# Fin de https://www.gitignore.io/api/flutter,androidstudio
